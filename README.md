@@ -1,9 +1,9 @@
-# homebrew-agx
+# homebrew-tap
 
-Homebrew tap for [agx](https://agx.tryshift.sh).
+Homebrew tap for tryshift.sh tools.
 
 ```bash
-brew tap tryshift-sh/agx
+brew tap tryshift-sh/tap
 brew install agx
 ```
 
