@@ -1,26 +1,26 @@
 class Agx < Formula
   desc "Agent Execute — the CLI shortcut to everything"
   homepage "https://agx.tryshift.sh"
-  version "0.2.1"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://agx.tryshift.sh/cli/0.2.1/agx-darwin-arm64"
-      sha256 "d6bf387a5f395bfc8f13374bd01127694f669f3094cedb2ca3d731aa81c2a3d2"
+      url "https://agx.tryshift.sh/cli/0.3.0/agx-darwin-arm64"
+      sha256 "24ffddfb02b9f243192a3163b9040de10a3a37fe4128d0afc525bc341f4314ab"
     else
-      url "https://agx.tryshift.sh/cli/0.2.1/agx-darwin-x64"
-      sha256 "d16800e9af4c790ddcd125300dd7794f615d2f17ab5f091b621bf35cf9677677"
+      url "https://agx.tryshift.sh/cli/0.3.0/agx-darwin-x64"
+      sha256 "8fd2c97d44c82b65e0d395b30a5a310eb2bcfef1e5189642e0352a53ef88a040"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://agx.tryshift.sh/cli/0.2.1/agx-linux-x64"
-      sha256 "20386eebbdfa77701aec3dc3819ab8492e52fe9c49e1fa1b4d6305ef71bec081"
+      url "https://agx.tryshift.sh/cli/0.3.0/agx-linux-x64"
+      sha256 "b9cd08918c919a03254905f4ebff9da1bb4cd896b364df71660f11e1e80bf0a2"
     else
-      url "https://agx.tryshift.sh/cli/0.2.1/agx-linux-arm64"
-      sha256 "565b4f573d370787fab11bbcb8dec8e1e20919df1771e997a2ee9990c5ce2826"
+      url "https://agx.tryshift.sh/cli/0.3.0/agx-linux-arm64"
+      sha256 "86160b10e71c3e7e2dec7fa16e064e0b6f7d0f0366e89d77bd6fa3ce9cfec784"
     end
   end
 
